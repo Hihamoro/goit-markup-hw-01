@@ -1,14 +1,10 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", "Raleway", sans-serif;
     background: #FFFFFF;
-    height: 2346px;
-    width: 1600px;
-    left: -1750px;
-    top: -1174px;
-    border-radius: 0px;
+    color: #212121;
 }
 
-ul {
+.list {
     list-style: none;
 }
 
@@ -106,6 +102,12 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+    color: #212121;
 }
 
 .name {
@@ -115,7 +117,6 @@ ul {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .characteristic {
@@ -144,7 +145,6 @@ ul {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .position {
